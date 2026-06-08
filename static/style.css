@@ -1,3 +1,140 @@
 body {
-    background-color: #061a2e;
+    background-image: url('NubankMacaco.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #a01eaca1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+   
+
+.container {
+    background-color: #9709bbcc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(122, 8, 160, 0.5);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.Valor_investido,
+.Temp_investimento,
+.tipo_investimento {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #7a08a0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(122, 8, 160, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.input-tempo {
+    display: flex;
+    gap: 8px;
+}
+
+.input-tempo .input-field {
+    flex: 1;
+}
+
+.select-field {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.input-tempo .select-field {
+    width: auto;
+}
+
+.btn-simular {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6b21a8;
+    color: #ffffff;
+    border: 2px solid #950fe2;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-simular:hover {
+    background-color: #4a1570;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #7a08a0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resultado h2 {
+    margin-bottom: 8px;
+}
+.input-tempo .select-field {
+    background-color: #6b21a8;
+    color: #ffffff;
+}
+.input-tempo .select-field:hover .select-field:hover{
+    background-color: rgb(74, 21, 112);
+}
+.select-fields {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(74,21,112);
+    color: #ffffff;
+    cursor: pointer;;
+}
+.input-valor {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(74,21,112);
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.input-investimentos {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(74,21,112);
+    color: #ffffff;
+    box-sizing: border-box;
 }
