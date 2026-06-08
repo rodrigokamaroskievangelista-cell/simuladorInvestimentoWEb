@@ -8,7 +8,7 @@ def calcular_valor_final(valor_investido, taxa_anual, meses):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('Simulador_investimento.html')
 
 @app.route('/simulador_investimento', methods=['POST'])
 def simulador_investimento():
@@ -32,7 +32,7 @@ def simulador_investimento():
         meses = tempo
 
     valor_final = calcular_valor_final(valor_investido, taxa, meses)
-    return render_template('index.html', valor_final=round(valor_final, 2))
+    return render_template('Simulador_investimento.html', valor_final=round(valor_final, 2))
 
 if __name__ == '__main__':
     app.run(debug=True)
