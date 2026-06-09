@@ -17,6 +17,7 @@ body {
     box-shadow: 0 0 5px rgba(122, 8, 160, 0.5);
     max-width: 400px;
     margin: 50px auto;
+    opacity: 0.9;
 }
 
 h1, h2{
